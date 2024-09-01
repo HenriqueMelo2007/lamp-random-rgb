@@ -1,22 +1,21 @@
-# Title
+# Lamp Random RGB
 
-![Project Preview](assets/preview.jpg)
+![Project Preview](assets/preview.png)
 
 ## Project Description
 
-Description here! lorem ipsum dolor 
+This Arduino project demonstrates how to control an RGB lamp using a button to generate different colors. The lamp's red, green, and blue components are connected to PWM-compatible pins on the Arduino, allowing for smooth color transitions by varying the brightness levels. Each time the button is pressed, the system generates a new set of random values ranging from 0 to 255 for each color component, creating a unique RGB color. The Arduino code initializes the pins and continuously checks for button presses, updating the RGB values to change the lamp's color accordingly. This project is a simple yet effective demonstration of using PWM and random number generation to create dynamic lighting effects with an RGB lamp.
 
 ## Components
 
 - Arduino Uno
-- 
-- 
-- 
-- 
-
+- Breadboard
+- ( 3 ) LED RGB
+- ( 4 ) 200Ω Resistor
+- Push button
+- ( 14 ) Wire
 
 > Project Status: concluded
-
 
 ## Installation Guide
 
@@ -45,7 +44,7 @@ To clone this repository to your local machine, follow these steps:
 2. **Clone Repository**: Use the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
+   git clone https://github.com/HenriqueMelo2007/lamp-random-rgb.git
 
 
 ## License
